@@ -2,6 +2,7 @@ ironsrc.com, [yourironSourcePublisherAccountID], Direct
 Remember to replace [yourironSourcePublisherAccountID] with your account ID, which you can get from your account manager.
 
 google.com, pub-6831245005873658, DIRECT, f08c47fec0942fa0
+google.com, pub-7647808421428026, DIRECT, f08c47fec0942fa0
 
 rubiconproject.com, 24400, RESELLER, 0bfd66d529a55807
 video.unrulymedia.com, 2464975885, RESELLER
