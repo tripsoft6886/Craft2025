@@ -69,13 +69,13 @@ header {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-top: -50px;
-    padding-top: 30px;
+    margin-top: -80px;
+    padding-top: 80px;
 }
 
 .hero-video {
@@ -179,7 +179,7 @@ header {
 
 .game-image {
     width: 100%;
-    height: 220px; /* Tăng chiều cao ảnh */
+    height: 420px; /* Tăng chiều cao ảnh */
     object-fit: cover;
     transition: transform 0.3s;
 }
@@ -203,9 +203,23 @@ header {
 }
 
 .game-link {
-    margin-top: auto; /* Đảm bảo nút luôn ở dưới cùng */
-    align-self: flex-start; /* Căn nút sang trái */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #4285F4, #34A853);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+    margin: 1rem auto 0; /* Thay đổi ở đây */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+    text-decoration: none; /* Thêm dòng này */
 }
+
+/* Giữ nguyên các phần CSS khác của .game-link */
 
 /* Team Section */
 .team-grid {
