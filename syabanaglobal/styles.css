@@ -69,7 +69,7 @@ header {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,7 +179,7 @@ header {
 
 .game-image {
     width: 100%;
-    height: 420px; /* Tăng chiều cao ảnh */
+    height: 220px; /* Tăng chiều cao ảnh */
     object-fit: cover;
     transition: transform 0.3s;
 }
@@ -201,26 +201,22 @@ header {
     margin-bottom: 1.5rem; /* Tăng khoảng cách dưới mô tả */
     flex-grow: 1; /* Đẩy nút xuống dưới cùng */
 }
-
-.game-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(45deg, #4285F4, #34A853);
-    border-radius: 10px;
-    color: white;
-    font-size: 1.8rem;
-    transition: all 0.3s ease;
-    margin: 1rem auto 0; /* Thay đổi ở đây */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    position: relative;
-    text-decoration: none; /* Thêm dòng này */
+.game-link-container {
+    text-align: center;
+    margin-top: 15px;
 }
 
-/* Giữ nguyên các phần CSS khác của .game-link */
+.game-link {
+    display: inline-block;
+    color: #689f38; /* Google Play green */
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+}
 
+.game-link:hover {
+    color: #8bc34a; /* Lighter green on hover */
+    transform: scale(1.1);
+}
 /* Team Section */
 .team-grid {
     display: grid;
