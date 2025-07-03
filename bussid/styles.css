@@ -14,6 +14,23 @@
   --transition: all 0.3s ease;
 }
 
+/* Thêm vào styles.css */
+.gradient-text {
+    background: linear-gradient(45deg, #ff5a5f, #4285F4, #34A853);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+    animation: gradient-animation 5s ease infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 * {
   margin: 0;
   padding: 0;
