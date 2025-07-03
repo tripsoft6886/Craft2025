@@ -37,6 +37,39 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+/* Thêm vào styles.css */
+.header-icon {
+    height: 40px; /* Điều chỉnh kích thước theo ý muốn */
+    width: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+/* Điều chỉnh lại padding cho logo nếu cần */
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 5px 0; /* Giảm padding nếu icon quá lớn */
+}
+
+.footer-logo {
+    margin-bottom: 1rem;
+    text-align: center; /* Căn giữa logo */
+}
+
+.footer-logo-img {
+    width: 500px; /* Kích thước mới - có thể điều chỉnh */
+    height: auto; /* Giữ tỉ lệ */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-logo img:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to nhẹ khi hover */
+}
+
 .policy-header {
     text-align: center;
     margin-bottom: 2rem;

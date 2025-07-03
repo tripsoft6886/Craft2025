@@ -448,8 +448,8 @@ nav ul {
 
 /* Footer/Contact */
 footer {
-  background-color: var(--dark-bg);
-  color: var(--light-text);
+  background-color: #f5f5f5; /* Thay đổi từ var(--dark-bg) sang màu xám nhạt */
+  color: var(--text-color); /* Đổi màu chữ sang đen hoặc màu tối để dễ đọc */
   padding: 5rem 0 2rem;
 }
 
@@ -465,9 +465,7 @@ footer {
 }
 
 .footer-column h3 {
-  color: #fff;
-  margin-bottom: 1.5rem;
-  font-size: 1.25rem;
+  color: var(--secondary-color); /* Thay đổi từ #fff sang màu tối hơn */
 }
 
 .footer-column ul {
@@ -479,9 +477,7 @@ footer {
 }
 
 .footer-column a {
-  color: #bbb;
-  text-decoration: none;
-  transition: var(--transition);
+  color: var(--gray-text); /* Thay đổi từ #bbb sang màu xám đậm hơn */
 }
 
 .footer-column a:hover {
@@ -499,18 +495,46 @@ footer {
   font-size: 1.25rem;
   transition: var(--transition);
 }
+.footer-logo {
+    margin-bottom: 1rem;
+    text-align: center; /* Căn giữa logo */
+}
+
+/* Thêm vào styles.css */
+.header-icon {
+    height: 40px; /* Điều chỉnh kích thước theo ý muốn */
+    width: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+/* Điều chỉnh lại padding cho logo nếu cần */
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 5px 0; /* Giảm padding nếu icon quá lớn */
+}
+
+.footer-logo-img {
+    width: 500px; /* Kích thước mới - có thể điều chỉnh */
+    height: auto; /* Giữ tỉ lệ */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-logo img:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to nhẹ khi hover */
+}
 
 .social-links a:hover {
   color: var(--primary-color);
   transform: translateY(-3px);
 }
-
 .copyright {
-  text-align: center;
-  padding-top: 2rem;
-  border-top: 1px solid #444;
-  color: #bbb;
-  font-size: 0.875rem;
+  color: var(--gray-text); /* Thay đổi từ #bbb sang màu xám đậm hơn */
+  border-top: 1px solid #ddd; /* Làm nhạt đường viền */
 }
 
 /* CTA Button */
