@@ -1,267 +1,553 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Our Fresh Spring Rolls, Juices, and Vietnamese Coffee Menu at Roly Poly Fresh Spring Rolls Da Nang">
-    <title>Our Menu – Roly Poly Fresh Spring Rolls Da Nang</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Menu | Roly Poly Fresh Spring Rolls Da Nang
+  </title>
+  <meta content="Explore our fresh spring rolls, Vietnamese coffee, matcha latte and healthy juices. Vegan and gluten-free options available in Da Nang's An Thuong area." name="description"/>
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+
+  <link href="styles.css" rel="stylesheet"/>
 </head>
-<body>
-    <!-- Header with Navigation -->
-<header>
-    <div class="container">
-        <a href="index.html" class="logo">
-            <img src="images/logo.jpg" alt="Roly Poly Fresh Spring Rolls Logo">
-            <div class="logo-text">
-                <p>Fresh Spring Rolls</p>
-                <p>Da Nang</p>
-            </div>
-        </a>
-        
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </div>
-</header>
 
-    <!-- Menu Hero -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Our Fresh Spring Rolls, Juices, and Vietnamese Coffee Menu</h1>
-                <p class="subheadline">Handmade fresh to order with high-quality ingredients</p>
-                <a href="contact.html" class="btn">Contact Us</a>
-            </div>
-        </div>
-    </section>
+<section class="menu-hero">
+  <div class="container">
+    <h1>
+      Roly Poly Fresh Spring Rolls Da Nang – Menu
+    </h1>
+    <p>
+      Enjoy fresh, handmade spring rolls crafted to order at Roly Poly Fresh Spring Rolls Da Nang. Perfect for healthy eaters, vegans, and gluten-free diets — dine in or take away near My Khe Beach.
+    </p>
+    <img 
+      src="images/menu-header-rolls.jpg" 
+      alt="Assorted handmade spring rolls with house-made sauces at Roly Poly Fresh Spring Rolls Da Nang" 
+      loading="lazy"
+    />
+  </div>
+</section>
 
-    <!-- Menu Content -->
-    <section class="section-padding">
-        <div class="container">
-            <div class="menu-intro">
-                <p>Our menu features fresh, handmade spring rolls crafted to order with high-quality ingredients. Perfect for anyone seeking healthy food, vegan or gluten-free options, or light bites in Da Nang. Enjoy them at our cozy café or for takeaway near My Khe Beach, An Thuong, and the My An area.</p>
-            </div>
-            
-            <div class="menu-item-image" id="menu-section">
-                <img src="images/assorted-spring-rolls-platter-roly-poly-da-nang.png" alt="Assorted handmade spring rolls with house-made sauces at Roly Poly Fresh Spring Rolls Da Nang">
-            </div>
-            
-            <div class="menu-section">
-                <h2>Mix & Match – Fresh Spring Rolls</h2>
-                <p>Perfect for sharing or a light meal. All rolls include: Vermicelli noodles, lettuce, carrot, cucumber, mint, coriander, fried shallots — served with your choice of dipping sauce.</p>
-                
-                <div class="menu-grid">
-                    <div class="menu-item">
-                        <div class="menu-item-header">
-                            <div>
-                                <h3>3 rolls</h3>
-                            </div>
-                            <div class="menu-item-price">95k</div>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <div class="menu-item-header">
-                            <div>
-                                <h3>4 rolls</h3>
-                            </div>
-                            <div class="menu-item-price">125k</div>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <div class="menu-item-header">
-                            <div>
-                                <h3>5 rolls</h3>
-                            </div>
-                            <div class="menu-item-price">155k</div>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <div class="menu-item-header">
-                            <div>
-                                <h3>6 rolls</h3>
-                            </div>
-                            <div class="menu-item-price">185k</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <h3>Roll Options (Choose Your Favourites):</h3>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Garlic Prawn</h3>
-                            <p>Fresh prawns sautéed with garlic</p>
-                        </div>
-                        <div class="menu-item-price">+10k</div>
-                    </div>
-                    <div class="menu-item-image">
-                        <img src="images/garlic-prawn-spring-roll-roly-poly-da-nang.jpg" alt="Garlic prawn fresh spring roll with herbs and vermicelli at Roly Poly Fresh Spring Rolls Da Nang">
-                    </div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Smoked Goose</h3>
-                            <p>Premium smoked goose breast</p>
-                        </div>
-                        <div class="menu-item-price">+5k</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Lemongrass Beef</h3>
-                            <p>Grilled beef marinated in lemongrass</p>
-                        </div>
-                        <div class="menu-item-price">+5k</div>
-                    </div>
-                    <div class="menu-item-image">
-                        <img src="images/lemongrass-beef-spring-roll-roly-poly-da-nang.jpg" alt="Lemongrass beef fresh spring roll with dipping sauce at Roly Poly Fresh Spring Rolls Da Nang">
-                    </div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Soy Glazed Pork Belly</h3>
-                            <p>Slow-cooked pork belly with soy glaze</p>
-                        </div>
-                        <div class="menu-item-price">Included</div>
-                    </div>
-                    <div class="menu-item-image">
-                        <img src="images/soy-glazed-pork-belly-spring-roll-roly-poly-da-nang.jpg" alt="Soy glazed pork belly spring roll with rice noodles and herbs at Roly Poly Fresh Spring Rolls Da Nang">
-                    </div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Satay Chicken</h3>
-                            <p>Grilled chicken with peanut satay</p>
-                        </div>
-                        <div class="menu-item-price">Included</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Poached Chicken & Avocado</h3>
-                            <p>Tender chicken with creamy avocado</p>
-                        </div>
-                        <div class="menu-item-price">Included</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-item-header">
-                        <div>
-                            <h3>Tofu, Mushroom & Avocado (Vegan)</h3>
-                            <p>Marinated tofu, mushrooms, and avocado</p>
-                        </div>
-                        <div class="menu-item-price">Included</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="menu-section">
-                <h2>House-Made Dipping Sauces</h2>
-                <p>Choose your favorite:</p>
-                
-                <div class="menu-item">
-                    <h3>Peanut Sauce (Vegan)</h3>
-                    <p>Creamy, nutty, and rich</p>
-                </div>
-                
-                <div class="menu-item">
-                    <h3>Toasted Sesame Sauce (Vegan)</h3>
-                    <p>Savory and aromatic</p>
-                </div>
-                
-                <div class="menu-item">
-                    <h3>Vietnamese Fish Sauce</h3>
-                    <p>Classic sweet-sour balance</p>
-                </div>
-                
-                <div class="menu-item-image">
-                    <img src="images/trio-of-sauces-roly-poly-da-nang.jpg" alt="Peanut, toasted sesame, and fish sauces served at Roly Poly Fresh Spring Rolls Da Nang">
-                </div>
-            </div>
-            
-            <!-- Additional menu sections would follow the same pattern -->
-            
-            <div class="text-center" style="margin-top: 60px;">
-                <a href="https://food.grab.com/vn/en/restaurant/online-delivery/5-C7DBL7TBPEDDT6" class="btn large" target="_blank">Order on GrabFood</a>
-            </div>
-        </div>
-    </section>
+<section id="spring-rolls">
+  <div class="container">
+    <h2>Mix &amp; Match – Fresh Spring Rolls</h2>
+    <p><strong>All rolls include:</strong> vermicelli, lettuce, carrot, cucumber, mint, coriander, and fried shallots. Comes with your choice of dipping sauce.</p>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="logo">
-                        <h3>Roly Poly</h3>
-                        <p>Fresh Spring Rolls Da Nang</p>
-                    </div>
-                    <p>05 An Thượng 6, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000</p>
-                    <p><a href="tel:+84327306076">+84 327 306 076</a></p>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Follow Us</h4>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/rolypolydanang" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@rolypolydanang" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://www.facebook.com/rolypolydanang" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.tripadvisor.com/Restaurant_Review-g298085-d33243662-Reviews-Roly_Poly_Fresh_Spring_Rolls_Da_Nang-Da_Nang.html" target="_blank"><i class="fab fa-tripadvisor"></i></a>
-                    </div>
-                    <h4>Delivery</h4>
-                    <p>Free delivery in An Thuong area</p>
-                    <a href="https://food.grab.com/vn/en/restaurant/online-delivery/5-C7DBL7TBPEDDT6" class="btn small" target="_blank">Order on GrabFood</a>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Copyright © <span id="current-year"></span> Roly Poly Fresh Spring Rolls Da Nang. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <ul class="pricing">
+      <li>3 Fresh Spring Rolls – 95k</li>
+      <li>4 Fresh Spring Rolls – 125k</li>
+      <li>5 Fresh Spring Rolls – 155k</li>
+      <li>6 Fresh Spring Rolls – 185k</li>
+    </ul>
 
-    <!-- Sticky CTA for Mobile -->
-    <div class="sticky-cta">
-        <a href="tel:+84327306076" class="btn"><i class="fas fa-phone"></i> Call Now</a>
-        <a href="https://food.grab.com/vn/en/restaurant/online-delivery/5-C7DBL7TBPEDDT6" class="btn secondary" target="_blank"><i class="fas fa-motorcycle"></i> Order</a>
+    <h3>Choose Your Fillings:</h3>
+    <div class="roll-options-grid">
+
+      <div class="roll">
+        <img src="images/garlic-prawn-roll.jpg" alt="Garlic prawn fresh spring roll with herbs and vermicelli at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Garlic Prawn <span>(+10k)</span></h4>
+        <p>Juicy garlic-marinated prawns wrapped with fresh herbs and noodles. <em>(Gluten-Free)</em></p>
+      </div>
+
+      <div class="roll">
+        <img src="images/smoked-goose-roll.jpg" alt="Smoked goose spring roll with fresh vegetables at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Smoked Goose <span>(+5k)</span></h4>
+        <p>Rich, savory goose with a gentle smoky depth — surprisingly light. <em>(Gluten-Free)</em></p>
+      </div>
+
+      <div class="roll">
+        <img src="images/lemongrass-beef-roll.jpg" alt="Lemongrass beef fresh spring roll with dipping sauce at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Lemongrass Beef <span>(+5k)</span></h4>
+        <p>Fragrant grilled beef infused with lemongrass and garlic. <em>(Contains Gluten)</em></p>
+      </div>
+
+      <div class="roll">
+        <img src="images/soy-pork-belly-roll.jpg" alt="Soy glazed pork belly spring roll with rice noodles and herbs at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Soy Glazed Pork Belly</h4>
+        <p>Rich, sticky-sweet soy pork belly in a fresh rice roll. <em>(Contains Soy, Gluten)</em></p>
+      </div>
+
+      <div class="roll">
+        <img src="images/satay-chicken-roll.jpg" alt="Satay chicken spring roll with sweet-savory sauce at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Satay Chicken</h4>
+        <p>Grilled chicken with a nutty-sweet satay kick. <em>(Contains Peanuts, Gluten-Free)</em></p>
+      </div>
+
+      <div class="roll">
+        <img src="images/poached-chicken-avocado-roll.jpg" alt="Poached chicken and avocado spring roll with fresh herbs at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Poached Chicken &amp; Avocado</h4>
+        <p>Light, creamy combo with juicy chicken and ripe avocado. <em>(Gluten-Free)</em></p>
+      </div>
+
+      <div class="roll">
+        <img src="images/tofu-mushroom-avocado-roll.jpg" alt="Vegan tofu, mushroom, and avocado spring roll at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Tofu, Mushroom &amp; Avocado <span>(Vegan)</span></h4>
+        <p>Earthy, wholesome, and totally plant-based deliciousness. <em>(Vegan, Gluten-Free)</em></p>
+      </div>
+
     </div>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <p><strong>Single Fresh Spring Rolls:</strong> 35k each <span>(+10k Garlic Prawn, +5k Goose/Beef)</span></p>
+  </div>
+</section>
+
+<section id="sauces">
+  <div class="container">
+    <h2>House-Made Dipping Sauces</h2>
+
+    <ul class="sauce-list">
+      <li>
+        <strong>Peanut Sauce</strong> <span>(Vegan)</span>
+        <p>Creamy, rich, and slightly sweet — a house favorite.</p>
+      </li>
+      <li>
+        <strong>Toasted Sesame Sauce</strong> <span>(Vegan)</span>
+        <p>Nutty and savory with deep sesame flavor.</p>
+      </li>
+      <li>
+        <strong>Vietnamese Fish Sauce</strong> <span>(Gluten-Free)</span>
+        <p>Classic sweet-sour umami punch with garlic and lime.</p>
+      </li>
+    </ul>
+
+    <img 
+      src="images/sauces.jpg" 
+      alt="Peanut, toasted sesame, and fish sauces at Roly Poly Fresh Spring Rolls Da Nang" 
+      loading="lazy"
+    />
+  </div>
+</section>
+
+<section id="juices">
+  <div class="container">
+    <h2>Fresh Juices – Healthy &amp; Natural</h2>
+    <p>All juices are 250mL, made fresh to order with no added sugar.</p>
+
+    <h3>Signature Juices – 50k</h3>
+    <div class="drink-grid">
+      <div class="drink">
+        <img src="images/my-khe-sunrise.jpg" alt="Mỹ Khê Sunrise juice with pineapple, watermelon, and lime at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Mỹ Khê Sunrise</h4>
+        <p>Refreshing and tropical with a splash of lime zing.</p>
+      </div>
+      <div class="drink">
+        <img src="images/along-the-han.jpg" alt="Along the Hàn juice with watermelon, cucumber, and lime at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Along the Hàn</h4>
+        <p>Crisp and cooling — like a breeze by the river.</p>
+      </div>
+      <div class="drink">
+        <img src="images/lantern-hoi-an.jpg" alt="Lantern in Hội An juice with orange, passionfruit, and lime at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Lantern in Hội An</h4>
+        <p>Bright and tangy with a touch of exotic fruitiness.</p>
+      </div>
+    </div>
+
+    <h3>Solo Juices – 45k</h3>
+    <div class="drink-grid">
+      <div class="drink">
+        <img src="images/orange-juice.jpg" alt="Freshly squeezed orange juice at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Orange Juice</h4>
+        <p>Fresh-squeezed and vitamin-packed.</p>
+      </div>
+      <div class="drink">
+        <img src="images/watermelon-juice.jpg" alt="Chilled watermelon juice at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Watermelon Juice</h4>
+        <p>Naturally sweet and ultra-refreshing.</p>
+      </div>
+      <div class="drink">
+        <img src="images/pineapple-juice.jpg" alt="Pineapple juice served cold at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Pineapple Juice</h4>
+        <p>Tart-sweet sunshine in a glass.</p>
+      </div>
+      <div class="drink">
+        <img src="images/passionfruit-juice.jpg" alt="Bold and tangy passionfruit juice at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Passionfruit Juice</h4>
+        <p>Zesty, bold, and full of tropical tang.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coffee">
+  <div class="container">
+    <h2>Vietnamese Coffee &amp; Matcha</h2>
+
+    <h3>Vietnamese Coffee</h3>
+    <div class="drink-grid">
+      <div class="drink">
+        <img src="images/iced-milk-coffee.jpg" alt="Iced milk coffee at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Iced Milk Coffee – 30k</h4>
+        <p>Classic cà phê sữa đá — bold, sweet, and creamy.</p>
+      </div>
+      <div class="drink">
+        <img src="images/iced-black-coffee.jpg" alt="Iced black Vietnamese drip coffee at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Iced Black Coffee – 25k</h4>
+        <p>Robust Vietnamese drip coffee, served cold and strong.</p>
+      </div>
+    </div>
+
+    <h3>Specialty Coffee</h3>
+    <div class="drink-grid">
+      <div class="drink">
+        <img src="images/salted-coffee.jpg" alt="Iced salted coffee with creamy top at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Iced Salted Coffee – 40k</h4>
+        <p>Unique, creamy, and just a little salty — a Da Nang twist.</p>
+      </div>
+      <div class="drink">
+        <img src="images/coconut-coffee.jpg" alt="Iced coconut coffee with blended ice at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Iced Coconut Coffee – 45k</h4>
+        <p>Blended ice with creamy coconut and bold coffee — sweet, rich, and refreshing.</p>
+      </div>
+    </div>
+
+    <h3>Matcha Latte – Ceremonial-Grade</h3>
+    <div class="drink-grid">
+      <div class="drink">
+        <img src="images/matcha-latte.jpg" alt="Iced matcha latte with oat milk at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Iced Matcha Latte – 50k</h4>
+        <p>Made with ceremonial grade Japanese matcha and creamy oat milk. Earthy, smooth, and dairy-free.</p>
+      </div>
+      <div class="drink">
+        <img src="images/strawberry-matcha-latte.jpg" alt="Strawberry matcha latte with oat milk at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+        <h4>Iced Strawberry Matcha Latte – 60k</h4>
+        <p>Sweet strawberry layers meet ceremonial matcha and oat milk — vibrant, refreshing, and vegan-friendly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="other-drinks">
+  <div class="container">
+    <h2>Other Drinks &amp; Beer</h2>
+
+    <h3>Non-Alcoholic</h3>
+
+    <div class="drink">
+      <img src="images/lime-slushie.jpg" alt="Snowy lime slushie at Roly Poly Fresh Spring Rolls Da Nang" loading="lazy"/>
+      <h4>Snowy Lime Slushie – 40k</h4>
+      <p>Frosty lime blend — tart, cool, and addictive.</p>
+    </div>
+
+    <ul class="drink-list">
+      <li>
+        <strong>Soft Drinks</strong> – 25k  
+        <p>Coke, Sprite, Fanta &amp; soda — your fizzy favorites.</p>
+      </li>
+      <li>
+        <strong>Bottled Water</strong> – 20k  
+        <p>Chilled, filtered water — simple and essential.</p>
+      </li>
+    </ul>
+
+    <h3>Beer</h3>
+    <ul class="drink-list">
+      <li>
+        <strong>Huda</strong> – 25k  
+        <p>Crisp and easy local lager, served cold.</p>
+      </li>
+      <li>
+        <strong>Larue</strong> – 25k  
+        <p>Smooth and refreshing Vietnamese favorite.</p>
+      </li>
+      <li>
+        <strong>Tiger</strong> – 30k  
+        <p>Bold and international-style lager with a bite.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Allergens Section -->
+<section id="allergens">
+  <div class="container">
+    <p>
+      <strong>Allergens Notice:</strong>
+      Some items may contain peanuts, shellfish, soy, or gluten. Please inform our staff of any allergies or dietary needs before ordering.
+    </p>
+  </div>
+</section>
+
+<!-- Delivery CTA Section -->
+<section id="delivery-cta">
+  <div class="container">
+    <p>
+      <strong>Free Delivery:</strong>
+      We offer free delivery within 3 km at in-store prices — call us directly to order.
+    </p>
+
+    <a class="btn" href="tel:+84327306076">
+      Call for Delivery
+    </a>
+    <a class="btn" href="https://food.grab.com/vn/en/restaurant/online-delivery/5-C7DBL7TBPEDDT6" target="_blank" rel="noopener">
+      Order on GrabFood
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Column 1: Business Info -->
+      <div class="footer-col">
+        <h3>Roly Poly Fresh Spring Rolls Da Nang</h3>
+        <p>
+          05 An Thượng 6, Bắc Mỹ Phú,<br>
+          Ngũ Hành Sơn, Đà Nẵng 550000
+        </p>
+        <p>
+          <a href="https://www.google.com/maps?cid=8457966646420358159" target="_blank" rel="noopener">
+            Find us on Google Maps
+          </a>
+        </p>
+        <p>
+          <a href="tel:+84327306076">+84 327 306 076</a>
+        </p>
+        <p>
+          Open Monday–Saturday<br>
+          10:00 AM – 8:00 PM<br>
+          Closed Sundays
+        </p>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Delivery & Social -->
+      <div class="footer-col">
+        <h4>Delivery &amp; Social</h4>
+        <p>Free delivery within 3 km — call to order</p>
+        <a class="btn small" href="tel:+84327306076">Call for Delivery</a>
+        <a class="btn small" href="https://food.grab.com/vn/en/restaurant/online-delivery/5-C7DBL7TBPEDDT6" target="_blank">Order on GrabFood</a>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/rolypolydanang" target="_blank">Instagram</a>
+          <a href="https://www.tiktok.com/@rolypolydanang" target="_blank">TikTok</a>
+          <a href="https://www.facebook.com/rolypolydanang" target="_blank">Facebook</a>
+          <a href="https://www.tripadvisor.com/Restaurant_Review-g298085-d33243662-Reviews-Roly_Poly_Fresh_Spring_Rolls_Da_Nang" target="_blank">TripAdvisor</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>
+        &copy; <span id="current-year"></span> Roly Poly Fresh Spring Rolls Da Nang. All rights reserved.
+      </p>
+    </div>
+  </div>
+
+  <!-- JS for current year -->
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Roly Poly Fresh Spring Rolls Da Nang",
+  "image": "https://rolypolydanang.vn/images/logo.jpg",
+  "description": "Vietnamese café in Da Nang serving fresh spring rolls, ceremonial matcha lattes, Vietnamese coffee, and healthy juices. Vegan, gluten-free, and delivery options available near My Khe Beach.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "05 An Thượng 6, Bắc Mỹ Phú, Ngũ Hành Sơn",
+    "addressLocality": "Đà Nẵng",
+    "postalCode": "550000",
+    "addressCountry": "VN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 16.048690,
+    "longitude": 108.244106
+  },
+  "telephone": "+84 327 306 076",
+  "priceRange": "₫1–100,000",
+  "servesCuisine": ["Vietnamese", "Vegan", "Gluten-Free"],
+  "url": "https://rolypolydanang.vn",
+  "menu": "https://rolypolydanang.vn/menu.html",
+  "hasMenu": {
+    "@type": "Menu",
+    "url": "https://rolypolydanang.vn/menu.html"
+  },
+  "openingHours": "Mo-Sa 10:00-20:00",
+  "acceptsReservations": false,
+  "acceptsPaymentMethod": [
+    "Cash",
+    "Visa",
+    "Mastercard",
+    "Apple Pay",
+    "MoMo"
+  ],
+  "hasDelivery": {
+    "@type": "DeliveryMethod",
+    "name": "In-house delivery within 3 km"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": 91
+  },
+  "sameAs": [
+    "https://www.facebook.com/rolypolydanang",
+    "https://www.instagram.com/rolypolydanang",
+    "https://www.tiktok.com/@rolypolydanang",
+    "https://www.tripadvisor.com/Restaurant_Review-g298085-d33243662-Reviews-Roly_Poly_Fresh_Spring_Rolls_Da_Nang",
+    "https://www.google.com/maps?cid=8457966646420358159"
+  ],
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Pet friendly",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Wheelchair accessible",
+      "value": true
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Menu",
+  "name": "Roly Poly Fresh Spring Rolls Menu",
+  "url": "https://rolypolydanang.vn/menu.html",
+  "hasMenuSection": [
+
+    {
+      "@type": "MenuSection",
+      "name": "Fresh Spring Rolls",
+      "description": "Fresh, made-to-order rice paper rolls with vermicelli, vegetables, and your choice of protein. Vegan and gluten-free options available.",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Garlic Prawn Roll",
+          "description": "Garlic prawns with fresh herbs and vermicelli in rice paper.",
+          "image": "https://rolypolydanang.vn/images/garlic-prawn-roll.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "VND"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Tofu, Mushroom & Avocado (Vegan)",
+          "description": "Earthy, wholesome, and totally plant-based deliciousness.",
+          "image": "https://rolypolydanang.vn/images/tofu-mushroom-avocado-roll.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "VND"
+          },
+          "suitableForDiet": "https://schema.org/VeganDiet"
+        }
+      ]
+    },
+
+    {
+      "@type": "MenuSection",
+      "name": "Fresh Juices",
+      "description": "250mL juices made to order with no added sugar. Vibrant, tropical, and healthy.",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Mỹ Khê Sunrise",
+          "description": "Pineapple, watermelon, and lime juice blend.",
+          "image": "https://rolypolydanang.vn/images/my-khe-sunrise.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "50000",
+            "priceCurrency": "VND"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Orange Juice",
+          "description": "Fresh-squeezed and vitamin-packed.",
+          "image": "https://rolypolydanang.vn/images/orange-juice.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "VND"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "MenuSection",
+      "name": "Vietnamese Coffee & Matcha",
+      "description": "Classic drip coffee and ceremonial-grade matcha served cold with oat milk.",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Iced Milk Coffee",
+          "description": "Classic Vietnamese cà phê sữa đá — bold, sweet, and creamy.",
+          "image": "https://rolypolydanang.vn/images/iced-milk-coffee.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "VND"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Iced Matcha Latte",
+          "description": "Ceremonial-grade Japanese matcha with oat milk. Earthy, creamy, and dairy-free.",
+          "image": "https://rolypolydanang.vn/images/matcha-latte.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "50000",
+            "priceCurrency": "VND"
+          },
+          "suitableForDiet": "https://schema.org/VeganDiet"
+        }
+      ]
+    },
+
+    {
+      "@type": "MenuSection",
+      "name": "Other Drinks",
+      "description": "Additional non-alcoholic options and local beer.",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Snowy Lime Slushie",
+          "description": "Frosty lime blend — tart, cool, and addictive.",
+          "image": "https://rolypolydanang.vn/images/lime-slushie.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "40000",
+            "priceCurrency": "VND"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Huda Beer",
+          "description": "Crisp and easy local lager, served cold.",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "VND"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
